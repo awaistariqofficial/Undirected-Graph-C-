@@ -37,7 +37,7 @@
 //    void saveToFile(const string& filename) const {
 //        ofstream file(filename);
 //        if (!file) {
-//            cerr << "Error opening file for writing." << endl;
+//            cout << "Error opening file for writing." << endl;
 //            return;
 //        }
 //        for (const auto& pair : adjList) {
@@ -52,7 +52,7 @@
 //    void loadFromFile(const string& filename) {
 //        ifstream file(filename);
 //        if (!file) {
-//            cerr << "Error opening file for reading." << endl;
+//            cout << "Error opening file for reading." << endl;
 //            return;
 //        }
 //        adjList.clear();
